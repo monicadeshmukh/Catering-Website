@@ -43,7 +43,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
      <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="snacks.html">Snacks</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="snacks.html">Snacks <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#BatataWada">Batata Wada</a></li>
+              <li><a href="#MeduWada">Medu Wada</a></li>
+              <li><a href="#Poha">Poha</a></li>
+            </ul>
+          </li>
+        <!--<li><a href="snacks.html">Snacks</a></li>-->
         <li><a href="rice.html">Rice</a></li>
         <li><a href="bread.html">Bread</a></li>
         <li><a href="desert.html">Deserts</a></li>
@@ -61,27 +69,27 @@
   
 <div class="container">
   <div class="row">
-    <div class="col-sm-4" style="width: 290px">
-      <h3>Poha &nbsp<span class="costStyle"> $5.99 </span> </h3>
+    <div id="Poha" class="col-sm-4" style="width: 290px">
+      <h3 >Poha &nbsp<span class="costStyle"> $5.99 </span> </h3>
    	    <p><img src = "poha.jpg"; width = 220; height = 220></p>
          <p class="costStyle">Ingredients: Made from Thick Poha (Flattened Rice), Vegetable oil and roasted peanuts with cilantro and a zest of fresh lemnon juice. </p>
          <p class="costStyle">Is custom made to include a variety of seasonal vegetables such as onion, potato, green peas, green chick peas, tomatoes and eggplant.</p>
    </div>
 
-   <div class="col-sm-4" style="width: 290px">
+   <div id="Upma" class="col-sm-4" style="width: 290px">
       <h3>Upma &nbsp<span class="costStyle"> $5.99 </span> </h3>
    	    <p><img src = "upma.jpg"; width = 220; height = 220></p>
          <p class="costStyle">Ingredients: Coarse sooji roasted slighty on vegetable oil. Chopped red onions, fresh curry leaves, cashews, udal daal and green chillies added to the tempering for a flavorful dish.  </p>
          <p class="costStyle">A variety of seasonal vegetables such as tomatoes, green peas, cauliflower, carrots and corn can be added to give a different flavor.</p>
    </div>
 
-     <div class="col-sm-4" style="width: 290px">
+     <div id="BatataWada" class="col-sm-4" style="width: 290px">
       <h3>Batata Wada &nbsp<span class="costStyle"> $5.99 </span> </h3>
    	    <p><img src = "batata wada.jpg"; width = 220; height = 220></p>
          <p class="costStyle">Ingredients: Bolied potatoes cooked with spicy green chillies, fresh ginger, cilantro and lemon juice. Dipped in chick pea flour batter and deep fried till golden brown.   </p>
          <p class="costStyle">Served with green cilantro chutney. </p>
    </div>
-    <div class="col-sm-4" style="width: 290px">
+    <div id="MeduWada" class="col-sm-4" style="width: 290px">
       <h3>Medu Wada &nbsp<span class="costStyle"> $5.99 </span> </h3>
    	    <p><img src = "meduwada.jpg"; width = 220; height = 220></p>
          <p class="costStyle">Ingredients: Made from udad daal. Spices such as fresh whole black pepper, cumin seeds, curry leaves, fresh ginger, coconut, cilantro and green chillies added to the batter and deep fried to make fluffy wadas.  </p>

@@ -1,0 +1,28 @@
+#logo {
+	font="Aerial Black 26px";
+	background-color: #ed2d63;
+	color: Black;
+}
+
+.centerText {
+	background-color:#f0d5d3;
+	height: 270px;
+	}
+
+.pictureCol {
+	width: 290px;
+}
+
+.pictureStyle {
+	width: 220px;
+	height: 220px;
+}
+
+.phone {
+	width: 20px; 
+	height: 20px;
+}
+
+.costStyle {font-size: medium;
+  				font-family:  Aerial Sans-serif;
+  				font-style: italic;}

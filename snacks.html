@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Snacks</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+  <!--<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" font="Aerial Black 26px" style = "background-color: #ed2d63; color: Black"> MK </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="snacks.html">Snacks</a></li>
+      <li><a href="rice.html">Rice</a></li>
+      <li><a href="bread.html">Bread</a></li>
+      <li><a href="desert.html">Deserts</a></li>
+    </ul>
+  </div>
+</nav>-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!--<a class="navbar-brand" font="Aerial Black 26px" style = "background-color: #ed2d63; color: Black"> MK </a>-->
+      <a class="navbar-brand" id="logo"> MK </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="snacks.html">Snacks <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#BatataWada">Batata Wada</a></li>
+              <li><a href="#MeduWada">Medu Wada</a></li>
+              <li><a href="#Poha">Poha</a></li>
+            </ul>
+          </li>
+        <!--<li><a href="snacks.html">Snacks</a></li>-->
+        <li><a href="rice.html">Rice</a></li>
+        <li><a href="bread.html">Bread</a></li>
+        <li><a href="desert.html">Deserts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center centerText">
+	<h1>Snacks</h1>
+  <h2>A wide variety of snacks such as poha, upma, different kinds of wadas and chaats are available.</h2> 
+   <h4><img src = "phone.jpg" class = "phone">&nbsp 804 360 5253</h4>
+
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div id="Poha" class="col-sm-4 pictureCol">
+      <h3 >Poha &nbsp<span class="costStyle"> $5.99 </span> </h3>
+   	    <p><img src = "poha.jpg" class = "pictureStyle"></p>
+         <p class="costStyle">Ingredients: Made from Thick Poha (Flattened Rice), Vegetable oil and roasted peanuts with cilantro and a zest of fresh lemnon juice. </p>
+         <p class="costStyle">Is custom made to include a variety of seasonal vegetables such as onion, potato, green peas, green chick peas, tomatoes and eggplant.</p>
+   </div>
+
+   <div id="Upma" class="col-sm-4 pictureCol">
+      <h3>Upma &nbsp<span class="costStyle"> $5.99 </span> </h3>
+   	    <p><img src = "upma.jpg" class = "pictureStyle"></p>
+         <p class="costStyle">Ingredients: Coarse sooji roasted slighty on vegetable oil. Chopped red onions, fresh curry leaves, cashews, udal daal and green chillies added to the tempering for a flavorful dish.  </p>
+         <p class="costStyle">A variety of seasonal vegetables such as tomatoes, green peas, cauliflower, carrots and corn can be added to give a different flavor.</p>
+   </div>
+
+     <div id="BatataWada" class="col-sm-4 pictureCol">
+      <h3>Batata Wada &nbsp<span class="costStyle"> $5.99 </span> </h3>
+   	    <p><img src = "batata wada.jpg" class = "pictureStyle"></p>
+         <p class="costStyle">Ingredients: Bolied potatoes cooked with spicy green chillies, fresh ginger, cilantro and lemon juice. Dipped in chick pea flour batter and deep fried till golden brown.   </p>
+         <p class="costStyle">Served with green cilantro chutney. </p>
+   </div>
+    <div id="MeduWada" class="col-sm-4 pictureCol">
+      <h3>Medu Wada &nbsp<span class="costStyle"> $5.99 </span> </h3>
+   	    <p><img src = "meduwada.jpg" class = "pictureStyle"></p>
+         <p class="costStyle">Ingredients: Made from udad daal. Spices such as fresh whole black pepper, cumin seeds, curry leaves, fresh ginger, coconut, cilantro and green chillies added to the batter and deep fried to make fluffy wadas.  </p>
+         <p class="costStyle">Served with coconut chutney and sambaar. </p>
+   </div>
+</div>
+<footer class="container-fluid bg-4 text-center" style="background-color: #3D3D3D; color: white; text-align: center">
+  2019 <u> Monica's Web Dev. </u> All rights reserved.</a>
+</footer>
+<!--<footer style="background-color: #3D3D3D; color: white; text-align: center"> 2019 <u> Monica's Web Dev. </u> All rights reserved.</footer>-->
+</body>
+</html>
